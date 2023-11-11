@@ -1,0 +1,30 @@
+// Breakpoint mixins
+
+@mixin for-mobile-layout {
+  @media (max-width: $mobile-padded-bp) {
+    @content;
+  }
+}
+
+@mixin for-tablet-layout {
+  @media (min-width: $mobile-padded-bp) {
+    @content;
+  }
+}
+
+@mixin for-desktop-layout {
+  @media (min-width: $tablet-padded-bp) {
+    @content;
+  }
+}
+
+@mixin for-wide-layout {
+  @media (min-width: $desktop-padded-bp) {
+    @content;
+  }
+}
+
+@mixin fontProperties($fontSize, $lineHeight) {
+  font-size: $fontSize;
+  line-height: $lineHeight;
+}

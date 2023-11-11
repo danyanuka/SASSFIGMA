@@ -1,0 +1,19 @@
+// Color Palette
+$midnight-green: #014e56;
+$light-coral: #f67e7e;
+$white: #fff;
+$rapture-blue: #79c8c7;
+$jungle-green: #004047;
+$sacramento-green: #012f34;
+$dark-green: #002529;
+
+// Breakpoints
+$layout-padding: 20px;
+
+$mobile-bp: 375px;
+$tablet-bp: 768px;
+$desktop-bp: 1440px;
+
+$mobile-padded-bp: $mobile-bp + 2 * $layout-padding;
+$tablet-padded-bp: $tablet-bp + 2 * $layout-padding;
+$desktop-padded-bp: $desktop-bp + 2 * $layout-padding;

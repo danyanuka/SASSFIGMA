@@ -1,0 +1,17 @@
+.main-layout {
+  display: grid;
+  > * {
+    grid-column: 2;
+  }
+
+  @include for-mobile-layout {
+    grid-template-columns: 24px 1fr 24px;
+    grid-template-rows: 160px auto;
+  }
+  @include for-tablet-layout {
+  }
+  @include for-desktop-layout {
+  }
+  @include for-wide-layout {
+  }
+}

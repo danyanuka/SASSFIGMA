@@ -1,0 +1,22 @@
+.header {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo {
+    width: 128px;
+    height: 32px;
+    flex-shrink: 0;
+    align-self: flex-start;
+  }
+
+  .hamburger {
+    align-self: flex-start;
+    width: 20px;
+    height: 17px;
+    flex-shrink: 0;
+  }
+  button {
+    display: none;
+  }
+}

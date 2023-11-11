@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background-color: $midnight-green;
+  color: $white;
+  @media (max-width: 1300px) {
+    font-size: 8px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Livvic-700";
+  font-style: normal;
+
+  & span {
+    color: $light-coral;
+  }
+}
+
+p {
+  margin: 0;
+  font-family: "Livvic-600";
+  font-style: normal;
+}
+
+.btn {
+  flex-shrink: 0;
+  font-family: "Livvic-600";
+  color: #fff;
+  background-color: transparent;
+  width: rem(153px);
+  height: rem(48px);
+  border-radius: 24px;
+  border: 2px solid #fff;
+  font-size: rem(18px);
+  font-style: normal;
+  line-height: rem(28px);
+}
