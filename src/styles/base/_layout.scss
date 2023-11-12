@@ -2,11 +2,8 @@
   display: grid;
   background-color: $midnight-green;
   @include for-mobile-layout {
-    grid-template-columns: 24px 1fr 24px;
+    // grid-template-columns: 24px 1fr 24px;
     grid-template-rows: 160px auto;
-    > * {
-      grid-column: 2;
-    }
   }
   @include for-tablet-layout {
     grid-template-rows: 224px auto;

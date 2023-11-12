@@ -2,14 +2,15 @@
   display: grid;
   background-color: $midnight-green;
   grid-template-rows: auto 18px auto 197px;
+  grid-template-columns: 24px 1fr 24px;
   text-align: center;
 
   h1 {
-    grid-area: 1 / 1;
+    grid-area: 1 / 2;
     @include fontProperties(rem(40px), rem(40px));
   }
   p {
-    grid-area: 3 / 1;
+    grid-area: 3 / 2;
     @include fontProperties(rem(15px), rem(28px));
   }
   img {
@@ -17,7 +18,7 @@
     left: 9px;
     right: 8px;
     align-self: end;
-    grid-area: 4 / 1;
+    grid-area: 4 / 2;
   }
 
   @include for-tablet-layout {
