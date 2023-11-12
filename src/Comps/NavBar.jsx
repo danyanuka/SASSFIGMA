@@ -7,6 +7,10 @@ export function NavBar() {
         src="/images/icon-hamburger.svg"
         alt="hamburger"
       ></img>
+      <nav className="nav">
+        <a>home</a>
+        <a>about</a>
+      </nav>
       <button className="btn">contact us</button>
     </header>
   );

@@ -1,10 +1,6 @@
 body {
   margin: 0;
-  background-color: $midnight-green;
   color: $white;
-  @media (max-width: 1300px) {
-    font-size: 8px;
-  }
 }
 
 h1,
@@ -40,4 +36,8 @@ p {
   font-size: rem(18px);
   font-style: normal;
   line-height: rem(28px);
+}
+
+a {
+  font-family: "Livvic-600";
 }
