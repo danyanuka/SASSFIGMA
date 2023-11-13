@@ -1,7 +1,3 @@
-export const DataService = {
-  items,
-};
-
 const items = [
   {
     id: 1,
@@ -22,3 +18,29 @@ const items = [
     text: "Our customized platform with in-built analytics helps you manage your distributed teams.",
   },
 ];
+
+const usersStories = [
+  {
+    id: 1,
+    name: "Kady Baker",
+    avatar: "images/avatar-kady.jpg",
+    text: "The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.",
+  },
+  {
+    id: 2,
+    name: "Aiysha Reese",
+    avatar: "images/avatar-aiysha.jpg",
+    text: "We needed to automate our entire onboarding process. The team came in and built out the whole journey. Since going live, user retention has gone through the roof!",
+  },
+  {
+    id: 3,
+    name: "Arthur Clarke",
+    avatar: "images/avatar-arthur.jpg",
+    text: "Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.",
+  },
+];
+
+export const dataService = {
+  items,
+  usersStories,
+};

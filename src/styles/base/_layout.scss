@@ -1,8 +1,7 @@
-.main-layout {
+.app-layout {
   display: grid;
   background-color: $midnight-green;
   @include for-mobile-layout {
-    // grid-template-columns: 24px 1fr 24px;
     grid-template-rows: 160px auto;
   }
   @include for-tablet-layout {

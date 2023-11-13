@@ -10,7 +10,11 @@ export function FirstSection() {
         Most companies aren’t tapping into the abundance of global talent. We’re
         about to change that.
       </p>
-      <img className="home-bg-1st" src="/images/bg-pattern-home-2.svg" alt="" />
+      <img
+        className="section-1-svg"
+        src="/images/bg-pattern-home-2.svg"
+        alt=""
+      />
     </section>
   );
 }

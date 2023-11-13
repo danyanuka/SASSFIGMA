@@ -5,7 +5,7 @@ import { Contact } from "./Comps/Contact";
 
 function App() {
   return (
-    <div className="main-layout">
+    <div className="app-layout">
       <NavBar />
       <HomePage />
       <Contact />

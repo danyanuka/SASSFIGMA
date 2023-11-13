@@ -14,7 +14,7 @@
     @include fontProperties(rem(15px), rem(28px));
   }
   img {
-    position: fixed;
+    position: absolute;
     left: 9px;
     right: 8px;
     align-self: end;
